@@ -4,10 +4,9 @@ import { NavLink } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function Header() {
-    console.log(menus);
     
   return (
-    <div className="bg-[var(--dark)]">
+    <div className="bg-[var(--dark)] header">
         <header className="container flex justify-between items-center mx-auto p-4">
             <div className="logo">
                 <img src="./logo-reeni.png" alt="" />
