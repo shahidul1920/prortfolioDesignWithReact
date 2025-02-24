@@ -1,3 +1,4 @@
+import { Paperclip, Speaker } from 'lucide-react'
 import React from 'react'
 
 export default function About() {
@@ -10,7 +11,7 @@ export default function About() {
         </h2>
       </div>
       
-      <div className="container mx-auto gridDev mt-[4rem]">
+      <div className="container mx-auto gridDev mt-[5rem]">
 
         <div className="left relative flex justify-center items-center">
             <div className="experience flex flex-col justify-center items-center gap-[2.2rem] relative z-10">
@@ -31,6 +32,47 @@ export default function About() {
                 Solutions 
                     <span className='text-[var(--primary)]'> with me.</span>
                 </h2>
+            </div>
+            <div className="prg text-[var(--pure)] font-thin leading-[1.6] tracking-wide">
+                <p>
+                Business consulting consultants provide expert advice and guida businesses to help them improve their performance, efficiency, and organizational
+                </p>
+            </div>
+
+            <div className="cards grid grid-cols-2 gap-5 mt-[2rem]">
+                <div className="card bg-[var(--mid-dark)] p-[2rem] rounded-[10px]">
+                    <div className="icnNtitle flex gap-4 items-center">
+                        <div className="icn size-[50px] bg-[var(--primary)] rounded-full flex justify-center items-center">
+                            <Paperclip className='text-[var(--pure)]' />
+                        </div>
+                        <div className="ttl">
+                            <h3 className='text-[var(--pure)] text-2xl font-bold'>Business Solutions</h3>
+                        </div>
+
+                    </div>
+                    <div className="prg text-[var(--pure)] font-thin text-[18px] leading-[1.6] tracking-wide mt-4">
+                        <p>
+                        Each one showcases my approach and dedication to detail, creativity
+                        </p>
+                    </div>
+                </div>
+                <div className="card bg-[var(--mid-dark)] p-[2rem] rounded-[10px]">
+                    <div className="icnNtitle flex gap-4 items-center">
+                        <div className="icn size-[50px] bg-[var(--primary)] rounded-full flex justify-center items-center">
+                            <Speaker className='text-[var(--pure)]' />
+                        </div>
+                        <div className="ttl">
+                            <h3 className='text-[var(--pure)] text-2xl font-bold'>Business Solutions</h3>
+                        </div>
+
+                    </div>
+                    <div className="prg text-[var(--pure)] font-thin text-[18px] leading-[1.6] tracking-wide mt-4">
+                        <p>
+                        Each one showcases my approach and dedication to detail, creativity
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
