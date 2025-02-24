@@ -16,3 +16,13 @@
 a{
   text-decoration: none;
 }
+.heading-1{
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--pure);
+}
+
+.hero-h{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+}

@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="bg-[var(--dark)] h-screen">
-      <section className="container flex gap-2 mx-auto px-4 py-12">
-        <div className="max-w-[650px] left flex flex-col justify-center gap-8">
+    <div className="bg-[var(--dark)] min-h-[900px]">
+      <section className="container mx-auto hero-h h-[100%] px-4">
+        <div className="w-[95%] order-2 md:order-1 mx-auto h-[100%] left flex flex-col justify-center gap-8">
           <div className="headline">
             <span className="text-[var(--primary)] text-[18px]">I AM</span>
             <h1 className="text-[var(--pure)] text-[50px] font-extrabold">
@@ -14,7 +14,7 @@ export default function Hero() {
             </h1>
           </div>
           <div className="prg">
-            <p className="text-[var(--pure)] font-thin leading-[1.6] tracking-wide">
+            <p className="w-[100%] text-[var(--pure)] font-thin leading-[1.6] tracking-wide">
               I am a <span className="text-[var(--primary)]">Full Stack Developer</span> with a passion for creating beautiful
               and functional user experiences. I have a strong foundation in
               <span  className="text-[var(--primary)]">full-stack web development</span>, and I am always looking to learn new
@@ -57,15 +57,20 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="right max-w-[650px]">
-          <div className="w-[650px] h-[100%] relative z-5 flex justify-center items-center ">
-            <img className="absolute z-40 bottom-0 w-[400px] min-w-[350px]" src="./banner-user-image-two.png" alt="" />
-            <h1 className="absolute text-[60px] top-[30%] z-50 text-4xl text-[var(--pure)] font-extrabold">Web Developer</h1>
-            <h1 className="absolute text-[60px]  z-20 text-4xl text-[var(--pure)] font-extrabold">Web Developer</h1>
-            <img className="absolute z-10 w-[400px] min-w-[400px] h-[250px] bottom-0" src="./banner-user-image-two-red-bg.png" alt="" />
+        <div className="right order-1 md:order-2 h-[900px] flex justify-center items-center">
+          <div className="w-[100%] h-[100%] relative z-5 flex justify-center items-center ">
+            <img className="absolute z-40 bottom-20 w-[450px] min-w-[350px]" src="./banner-user-image-two.png" alt="" />
+            <h1 className="heading-1 absolute text-[80px] top-[30%] z-50 text-4xl">Web Developer</h1>
+            <h1 className="absolute text-[80px] z-20 text-4xl text-[var(--pure)] font-extrabold">Web Developer</h1>
+            <img className="absolute z-10 min-w-[500px] h-[250px] bottom-20" src="./banner-user-image-two-red-bg.png" alt="" />
+            <div className="shad absolute z-60 bottom-20 min-w-[555px] h-20 bg-gradient-to-t from-black to-transparent" />
           </div>
         </div>
       </section>
     </div>
   );
 }
+
+
+//flex gap-2 mx-auto flex-wrap justify-between ---hero-h
+// w-[650px]

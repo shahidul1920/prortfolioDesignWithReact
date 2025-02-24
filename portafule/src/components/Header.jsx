@@ -13,7 +13,7 @@ export default function Header() {
                 <img src="./logo-reeni.png" alt="" />
             </div>
             <div className="menus">
-                <ul className="flex gap-[1rem]">
+                <ul className="hidden md:flex gap-[1rem]">
                     {menus.map((menu) =>(
                         <NavLink key={menu.id} to={menu.url} className="text-[var(--pure)]">{menu.name}</NavLink>
                     ))}
