@@ -95,3 +95,6 @@ a{
   z-index: -1;
 }
 
+.headLn svg{
+  width: 50px;
+}

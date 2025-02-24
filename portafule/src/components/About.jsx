@@ -1,4 +1,4 @@
-import { Paperclip, Speaker } from 'lucide-react'
+import { MoveRight, Paperclip, Speaker } from 'lucide-react'
 import React from 'react'
 
 export default function About() {
@@ -6,7 +6,7 @@ export default function About() {
     <div className='aboutPage bg-[var(--dark)] py-[6rem] grid md:gap-[1rem]'>
         
       <div className="textSection container mx-auto">
-        <h2 className='text-[var(--pure)] text-wrap text-4xl text-center font-extrabold leading-[1.6] tracking-wide'>
+        <h2 className='text-[var(--pure)] text-wrap text-2xl md:text-4xl text-center font-extrabold leading-[1.6] tracking-wide'>
             I am a <span className='text-[var(--primary)]'>Full Stack Developer</span> with a passion for creating beautiful and functional user experiences. I have a strong foundation in full-stack web development, and I am always looking to learn new <span className='text-[var(--primary)]'>technologies and improve</span> my skills. I am currently seeking new opportunities to work on exciting projects with a <span className='text-[var(--primary)]'>talented team.</span>
         </h2>
       </div>
@@ -72,6 +72,13 @@ export default function About() {
                         </p>
                     </div>
                 </div>
+
+                <button className='max-w-[250px] justify-center gap-1 flex items-center btn p-4 text-[var(--pure)] bg-[var(--primary)] rounded-full'>
+                    <p>
+                        Read More About Me
+                    </p>
+                    <MoveRight />
+                </button>
 
             </div>
         </div>
