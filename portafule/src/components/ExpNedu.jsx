@@ -1,4 +1,10 @@
-import { Badge, GraduationCap, Trophy } from "lucide-react";
+import {
+  Badge,
+  GraduationCap,
+  PaintbrushVertical,
+  SquareDashedBottomCode,
+  Trophy,
+} from "lucide-react";
 import React from "react";
 
 export default function ExpNedu() {
@@ -115,6 +121,113 @@ export default function ExpNedu() {
               </span>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* skills */}
+
+      <div className="skills container gridDev mx-auto mt-[6rem]">
+        <div className="designSkills">
+          <div className="headLn flex items-center gap-4">
+            <PaintbrushVertical className="text-[var(--primary)] size-[40px]" />
+            <h2 className="text-4xl text-[var(--pure)] font-extrabold">
+              Design Skill
+            </h2>
+          </div>
+
+          <div className="grid gap-[3rem] mt-6">
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">Figma</h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[70%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">
+                  Adobe XD
+                </h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[60%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">
+                  Photoshop
+                </h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[80%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">
+                  Illustrator
+                </h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[90%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="devSkills">
+          <div className="headLn flex items-center gap-4">
+            <SquareDashedBottomCode className="text-[var(--primary)] size-[40px]" />
+            <h2 className="text-4xl text-[var(--pure)] font-extrabold">
+              Development Skill
+            </h2>
+          </div>
+
+          <div className="grid gap-[3rem] mt-6">
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">WordPress</h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[70%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">
+                  HTML & CSS (SCSS)
+                </h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[95%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">
+                  JavaScript
+                </h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[80%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+            <div className="skill">
+              <div className="name">
+                <h3 className="text-[var(--pure)] text-2xl font-bold">
+                  React JS
+                </h3>
+              </div>
+              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+                <div className="progress bg-[var(--primary)] w-[90%] h-[10px] rounded-[10px]" />
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
