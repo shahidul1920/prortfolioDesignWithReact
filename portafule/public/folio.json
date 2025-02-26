@@ -1,0 +1,46 @@
+{
+    "Designs" : [
+        {
+            "skills" : "Adobe Photoshop",
+            "projectName" : "Social media design",
+            "image" : "./des-1"
+        },
+        {
+            "skills" : "Adobe Illustrator",
+            "projectName" : "Business card design",
+            "image" : "./des-4.jpg"
+        },
+        {
+            "skills" : "Adobe Photoshop",
+            "projectName" : "Social media design",
+            "image" : "./des-2.jpg"
+        },
+        {
+            "skills" : "Adobe Photoshop",
+            "projectName" : "Poster design",
+            "image" : "./des-5.jpg"
+        }
+    ],
+    "web": [
+        {
+            "skills" : ["HTML", "CSS", "JavaScript", "React", "Figma"],
+            "projectName" : "Ecommerce website",
+            "image" : "./2.png"
+        },
+        {
+            "skills" : ["HTML", "CSS", "JavaScript", "React"],
+            "projectName" : "Digital agency website",
+            "image" : "./5.png"
+        },
+        {
+            "skills" : "WordPress",
+            "projectName" : "Digital agency website",
+            "image" : "./6.png"
+        },
+        {
+            "skills" : ["HTML", "CSS", "JavaScript", "Next"],
+            "projectName" : "Portfolio fitness coach website",
+            "image" : "./7.png"
+        }
+    ]
+}

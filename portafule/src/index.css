@@ -36,7 +36,9 @@ a{
   background-repeat: no-repeat;
 }
 
-
+button{
+  cursor: pointer;
+}
 .hero-h{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
