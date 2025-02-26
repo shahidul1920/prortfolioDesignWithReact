@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { use } from 'react'
 
 export default function Portfolio() {
+
+  useEffect(() => {
+    fetch('./folio.json')
+    .then(res => res.json())
+    .then(data => console.log(data))
+  }, [])
   return (
     <div className="portfolio bg-[var(--dark)] py-[6rem]" id="portfolio">
       <div className="textSection container text-[var(--pure)] mx-auto text-center">
