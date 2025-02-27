@@ -10,7 +10,7 @@ import React from "react";
 export default function ExpNedu() {
   return (
     <div className="expNedu bg-[var(--dark)] py-[6rem]">
-      <div className="container grid grid-cols-1 xl:grid-cols-2 p-[2rem] mx-auto gap-[3.4rem] xl:gap-0">
+      <div className="container grid grid-cols-1 xl:grid-cols-2 p-[2rem] mx-auto gap-[3.4rem]">
         <div className="exp">
           <div className="headLn flex items-center gap-4">
             <Trophy className="text-[var(--primary)] size-[40px]" />

@@ -23,7 +23,7 @@ export default function Portfolio() {
   
 
   return (
-    <div className="portfolio bg-[var(--dark)] py-[6rem]" id="portfolio">
+    <div className="portfolio bg-[var(--dark)] py-[6rem] px-[2rem] xl:px-0" id="portfolio">
       <div className="textSection container text-[var(--pure)] mx-auto text-center">
         <span className="text-[var(--primary)] font-bold text-2xl">
           Latest Portfolio
@@ -53,7 +53,7 @@ export default function Portfolio() {
         </button>
       </div>
 
-      <div className="portfolioItems container mx-auto mt-12 gridDev gap-8">
+      <div className="portfolioItems container mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         {val === true
           ? projects.web.map((project) => (
               <div

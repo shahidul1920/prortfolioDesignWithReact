@@ -11,7 +11,7 @@ export default function About() {
         </h2>
       </div>
       
-      <div className="container mx-auto p-[2rem] mt-[2rem] md:mt-[5rem]">
+      <div className="container mx-auto grid grid-cols-1 xl:grid-cols-2 p-[2rem] mt-[2rem] md:mt-[5rem]">
 
         <div className="left relative flex justify-center items-center">
             <div className="experience flex flex-col justify-center items-center gap-[2.2rem] relative z-10">
