@@ -10,7 +10,7 @@ import React from "react";
 export default function ExpNedu() {
   return (
     <div className="expNedu bg-[var(--dark)] py-[6rem]">
-      <div className="container gridDev mx-auto gap-[3.4rem] xl:gap-0">
+      <div className="container grid grid-cols-1 xl:grid-cols-2 p-[2rem] mx-auto gap-[3.4rem] xl:gap-0">
         <div className="exp">
           <div className="headLn flex items-center gap-4">
             <Trophy className="text-[var(--primary)] size-[40px]" />
@@ -20,7 +20,7 @@ export default function ExpNedu() {
           </div>
 
           <div className="expCards mt-6">
-            <div className="card w-[90%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2">
+            <div className="card w-[100%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2">
               <div className="year flex items-center gap-4">
                 <Badge className="text-[var(--primary)]" />
                 <span className="text-[var(--primary)]">2019 - 2021</span>
@@ -35,7 +35,7 @@ export default function ExpNedu() {
               </span>
             </div>
 
-            <div className="card w-[90%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
+            <div className="card w-[100%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
               <div className="year flex items-center gap-4">
                 <Badge className="text-[var(--primary)]" />
                 <span className="text-[var(--primary)]">2022 - 2022</span>
@@ -50,7 +50,7 @@ export default function ExpNedu() {
               </span>
             </div>
 
-            <div className="card w-[90%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
+            <div className="card w-[100%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
               <div className="year flex items-center gap-4">
                 <Badge className="text-[var(--primary)]" />
                 <span className="text-[var(--primary)]">2020 - 2022</span>
@@ -65,7 +65,7 @@ export default function ExpNedu() {
               </span>
             </div>
 
-            <div className="card w-[90%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
+            <div className="card w-[100%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
               <div className="year flex items-center gap-4">
                 <Badge className="text-[var(--primary)]" />
                 <span className="text-[var(--primary)]">2016 - 2019</span>
@@ -91,7 +91,7 @@ export default function ExpNedu() {
           </div>
 
           <div className="eduCards mt-6">
-            <div className="card w-[90%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2">
+            <div className="card w-[100%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2">
               <div className="year flex items-center gap-4">
                 <Badge className="text-[var(--primary)]" />
                 <span className="text-[var(--primary)]">2015 - 2019</span>
@@ -106,7 +106,7 @@ export default function ExpNedu() {
               </span>
             </div>
 
-            <div className="card w-[90%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
+            <div className="card w-[100%] bg-[var(--mid-dark)] p-[2rem] rounded-[10px] grid gap-2 mt-4">
               <div className="year flex items-center gap-4">
                 <Badge className="text-[var(--primary)]" />
                 <span className="text-[var(--primary)]">2012 - 2015</span>
@@ -126,7 +126,7 @@ export default function ExpNedu() {
 
       {/* skills */}
 
-      <div className="skills container gridDev mx-auto mt-[6rem]">
+      <div className="skills p-[2rem] container grid grid-cols-1 xl:grid-cols-2 gap-[5rem] xl:gap-0 mx-auto mt-[6rem]">
         <div className="designSkills">
           <div className="headLn flex items-center gap-4">
             <PaintbrushVertical className="text-[var(--primary)] size-[40px]" />
@@ -140,7 +140,7 @@ export default function ExpNedu() {
               <div className="name">
                 <h3 className="text-[var(--pure)] text-2xl font-bold">Figma</h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[70%] h-[10px] rounded-[10px]" />
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function ExpNedu() {
                   Adobe XD
                 </h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[60%] h-[10px] rounded-[10px]" />
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function ExpNedu() {
                   Photoshop
                 </h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[80%] h-[10px] rounded-[10px]" />
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function ExpNedu() {
                   Illustrator
                 </h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[90%] h-[10px] rounded-[10px]" />
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function ExpNedu() {
               <div className="name">
                 <h3 className="text-[var(--pure)] text-2xl font-bold">WordPress</h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[70%] h-[10px] rounded-[10px]" />
               </div>
             </div>
@@ -200,7 +200,7 @@ export default function ExpNedu() {
                   HTML & CSS (SCSS)
                 </h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[95%] h-[10px] rounded-[10px]" />
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function ExpNedu() {
                   JavaScript
                 </h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[80%] h-[10px] rounded-[10px]" />
               </div>
             </div>
@@ -220,7 +220,7 @@ export default function ExpNedu() {
                   React JS
                 </h3>
               </div>
-              <div className="bar bg-[var(--mid-dark)] w-[80%] h-[10px] rounded-[10px] mt-2">
+              <div className="bar bg-[var(--mid-dark)] w-[100%] xl:w-[80%] h-[10px] rounded-[10px] mt-2">
                 <div className="progress bg-[var(--primary)] w-[90%] h-[10px] rounded-[10px]" />
               </div>
             </div>

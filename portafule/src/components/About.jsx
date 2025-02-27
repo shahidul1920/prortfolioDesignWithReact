@@ -5,13 +5,13 @@ export default function About() {
   return (
     <div className='aboutPage bg-[var(--dark)] py-[6rem] grid md:gap-[1rem]'>
         
-      <div className="textSection container mx-auto">
+      <div className="textSection container mx-auto p-[2rem]">
         <h2 className='text-[var(--pure)] text-wrap text-2xl md:text-4xl text-center font-extrabold leading-[1.6] tracking-wide'>
             I am a <span className='text-[var(--primary)]'>Full Stack Developer</span> with a passion for creating beautiful and functional user experiences. I have a strong foundation in full-stack web development, and I am always looking to learn new <span className='text-[var(--primary)]'>technologies and improve</span> my skills. I am currently seeking new opportunities to work on exciting projects with a <span className='text-[var(--primary)]'>talented team.</span>
         </h2>
       </div>
       
-      <div className="container mx-auto gridDev mt-[5rem]">
+      <div className="container mx-auto p-[2rem] mt-[2rem] md:mt-[5rem]">
 
         <div className="left relative flex justify-center items-center">
             <div className="experience flex flex-col justify-center items-center gap-[2.2rem] relative z-10">
@@ -24,7 +24,7 @@ export default function About() {
             </div>
         </div>
 
-        <div className="right">
+        <div className="right mt-[4rem] xl:mt-0">
             <div className="titleHd">
                 <span className='text-[18px] text-[var(--primary)] font-bold'>About Me</span>
                 <h2 className='text-[50px] text-[var(--pure)] font-extrabold'>
@@ -39,8 +39,8 @@ export default function About() {
                 </p>
             </div>
 
-            <div className="cards grid grid-cols-2 gap-5 mt-[2rem]">
-                <div className="card bg-[var(--mid-dark)] p-[2rem] rounded-[10px]">
+            <div className="crds grid grid-cols-1 md:grid-cols-2 gap-5 mt-[2rem]">
+                <div className="crd bg-[var(--mid-dark)] p-[2rem] rounded-[10px]">
                     <div className="icnNtitle flex gap-4 items-center">
                         <div className="icn size-[50px] bg-[var(--primary)] rounded-full flex justify-center items-center">
                             <Paperclip className='text-[var(--pure)]' />
@@ -56,7 +56,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className="card bg-[var(--mid-dark)] p-[2rem] rounded-[10px]">
+                <div className="crd bg-[var(--mid-dark)] p-[2rem] rounded-[10px]">
                     <div className="icnNtitle flex gap-4 items-center">
                         <div className="icn size-[50px] bg-[var(--primary)] rounded-full flex justify-center items-center">
                             <Speaker className='text-[var(--pure)]' />
