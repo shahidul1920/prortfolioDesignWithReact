@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Linkedin, MoveRight, Twitter } from "lucide-react";
 import React from "react";
+import {motion} from 'framer-motion';
 
 export default function Hero() {
   return (
@@ -7,7 +8,8 @@ export default function Hero() {
       <section className="container mx-auto hero-h h-[100%] bg-[url(./banner-shape-two.png)] bg-no-repeat bg-center px-4 ">
         <div className="w-[100%] order-2 md:mt-10 xl:mt-auto md:order-1 mx-auto h-[100%] left flex flex-col justify-center gap-8 p-[1rem]">
           <div className="headline">
-            <span className="text-[var(--primary)] text-[18px]">I AM</span>
+            <motion.span animate={{ rotate: 360 }} className="bg-red-700 text-[18px] w-[100px] h-[100px]" > hello </motion.span>
+            <motion.span animate={{ rotate: 360 }} className="text-[var(--primary)] text-[18px]">I AM</motion.span>
             <h1 className="text-[var(--pure)] text-[50px] font-extrabold">
               Ralph Edwards, a Full Stuck <br />
               <span className="text-[var(--primary)]">Developer</span>
