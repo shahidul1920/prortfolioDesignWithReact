@@ -1,6 +1,6 @@
-import { Facebook, Instagram, Linkedin, MoveRight, Twitter } from "lucide-react";
 import React from "react";
-import {motion} from 'framer-motion';
+import { motion } from "framer-motion";
+import { Facebook, Instagram, Linkedin, MoveRight, Twitter } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -8,8 +8,7 @@ export default function Hero() {
       <section className="container mx-auto hero-h h-[100%] bg-[url(./banner-shape-two.png)] bg-no-repeat bg-center px-4 ">
         <div className="w-[100%] order-2 md:mt-10 xl:mt-auto md:order-1 mx-auto h-[100%] left flex flex-col justify-center gap-8 p-[1rem]">
           <div className="headline">
-            <motion.span animate={{ rotate: 360 }} className="bg-red-700 text-[18px] w-[100px] h-[100px]" > hello </motion.span>
-            <motion.span animate={{ rotate: 360 }} className="text-[var(--primary)] text-[18px]">I AM</motion.span>
+            <span className="text-[var(--primary)] text-[18px]">I AM</span>
             <h1 className="text-[var(--pure)] text-[50px] font-extrabold">
               Ralph Edwards, a Full Stuck <br />
               <span className="text-[var(--primary)]">Developer</span>
@@ -62,8 +61,8 @@ export default function Hero() {
         <div className="right order-1 md:order-2 h-[900px] flex justify-center items-center">
           <div className="w-[100%] h-[100%] relative z-5 flex justify-center items-center ">
             <img className="absolute z-40 bottom-20 w-[450px] min-w-[350px]" src="./banner-user-image-two.png" alt="" />
-            <h1 className="heading-1 absolute text-[80px] z-50 text-4xl">Web Developer</h1>
-            <h1 className="heading-2 absolute text-[80px] z-20 text-4xl text-[var(--pure)] font-extrabold">Web Developer</h1>
+            <motion.h1 initial={{y:165}} animate={{y:180}} transition={{duration:1.2, ease: 'easeInOut' , repeatType: 'reverse' , repeat: Infinity}} className="heading-1 absolute text-[80px] z-50 text-4xl">Web Developer</motion.h1>
+            <motion.h1 initial={{y:30}} animate={{y:0}} transition={{duration:1.5, ease: 'easeInOut' , repeatType: 'reverse' , repeat: Infinity}} className="heading-2 absolute text-[80px] z-20 text-4xl text-[var(--pure)] font-extrabold">Web Developer</motion.h1>
             <img className="absolute z-10 min-w-[400px] h-[250px] bottom-20" src="./banner-user-image-two-red-bg.png" alt="" />
             <div className="shad absolute z-60 bottom-20 min-w-[555px] h-20 bg-gradient-to-t from-black to-transparent" />
           </div>

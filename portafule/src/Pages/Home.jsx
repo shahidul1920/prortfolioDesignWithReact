@@ -6,6 +6,7 @@ import Portfolio from '../components/Portfolio'
 import ExpertAreas from '../components/ExpertAreas'
 import FormSec from '../components/FormSec'
 
+
 export default function Home() {
   return (
     <div>

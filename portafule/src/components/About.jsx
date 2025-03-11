@@ -1,9 +1,10 @@
-import { MoveRight, Paperclip, Speaker } from 'lucide-react'
 import React from 'react'
+import { motion } from 'framer-motion'
+import { MoveRight, Paperclip, Speaker } from 'lucide-react'
 
 export default function About() {
   return (
-    <div className='aboutPage bg-[var(--dark)] py-[6rem] grid md:gap-[1rem]'>
+    <motion.div initial='base' variants={{base:{opacity:0.3, scale:0.9}, full:{opacity:1, scale:1}}} whileInView='full' transition={{duration:.5}} className='aboutPage bg-[var(--dark)] py-[6rem] grid md:gap-[1rem]'>
         
       <div className="textSection container mx-auto p-[2rem]">
         <h2 className='text-[var(--pure)] text-wrap text-2xl md:text-4xl text-center font-extrabold leading-[1.6] tracking-wide'>
@@ -13,7 +14,7 @@ export default function About() {
       
       <div className="container mx-auto grid grid-cols-1 xl:grid-cols-2 p-[2rem] mt-[2rem] md:mt-[5rem]">
 
-        <div className="left relative flex justify-center items-center">
+        <motion.div initial={{opacity:0, x:-120}} whileInView={{opacity:1, x:0}} transition={{duration:0.6, ease:'easeInOut'}} className="left relative flex justify-center items-center">
             <div className="experience flex flex-col justify-center items-center gap-[2.2rem] relative z-10">
                 <div className="title h-[400px] grid items-center text-[var(--pure)] text-center text-4xl font-extrabold">
                     5 Years of <br /> Experience
@@ -22,9 +23,9 @@ export default function About() {
                     In Full Stack Development
                 </div>
             </div>
-        </div>
+        </motion.div>
 
-        <div className="right mt-[4rem] xl:mt-0">
+        <motion.div initial={{opacity:0, x:120}} whileInView={{opacity:1, x:0}} transition={{duration:0.6, ease:'easeInOut'}} className="right mt-[4rem] xl:mt-0">
             <div className="titleHd">
                 <span className='text-[18px] text-[var(--primary)] font-bold'>About Me</span>
                 <h2 className='text-[50px] text-[var(--pure)] font-extrabold'>
@@ -81,10 +82,10 @@ export default function About() {
                 </button>
 
             </div>
-        </div>
+        </motion.div>
 
       </div>
 
-    </div>
+    </motion.div>
   )
 }
