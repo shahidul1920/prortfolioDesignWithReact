@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.0.8",
     "framer-motion": "^12.4.11",
+    "lenis": "^1.2.3",
     "lucide-react": "^0.475.0",
     "motion": "^12.4.10",
     "react": "^19.0.0",
