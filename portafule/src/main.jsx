@@ -7,7 +7,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ReactLenis root options={{
-      lerp: 0.05,
+      lerp: 0.06,
     }}>
       <App />
     </ReactLenis>

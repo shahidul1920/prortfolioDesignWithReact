@@ -20,7 +20,7 @@ export default function About() {
                     5 Years of <br /> Experience
                 </div>
                 <div className="subTitle text-[var(--pure)] text-center text-2xl font-extrabold h-[120px] grid items-center">
-                    In Full Stack Development
+                    In Full Stack Development(React, Node, Express, MongoDB)
                 </div>
             </div>
         </motion.div>
