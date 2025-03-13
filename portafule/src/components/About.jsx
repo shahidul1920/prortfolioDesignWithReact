@@ -17,7 +17,7 @@ export default function About() {
         <motion.div initial={{opacity:0, x:-120}} whileInView={{opacity:1, x:0}} transition={{duration:0.6, ease:'easeInOut'}} className="left relative flex justify-center items-center">
             <div className="experience flex flex-col justify-center items-center gap-[2.2rem] relative z-10">
                 <div className="title h-[400px] grid items-center text-[var(--pure)] text-center text-4xl font-extrabold">
-                    5 Years of <br /> Experience
+                    4+ Years of <br /> Experience
                 </div>
                 <div className="subTitle text-[var(--pure)] text-center text-2xl font-extrabold h-[120px] grid items-center">
                     In Full Stack Development(React, Node, Express, MongoDB)
